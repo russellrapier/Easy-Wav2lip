@@ -72,6 +72,9 @@ Upload one of those to your Google Drive or to your colab runtime then paste the
 ### resolution_scale:
 Lower the output resolution for quicker rendering and better hiding of artifacts, at the cost of worse overall image quality.
 
+### fps_for_static_image:
+If using a static image as an input (eg: a .jpg) then this will be the fps of the lipsynced video.
+
 ### nosmooth:
 Disable face detection smoothing which may fix artifacts, I'm not aware of any downsides to this.
 
