@@ -5,7 +5,7 @@ I want to adapt it to run locally but right now this version is purely designed 
 
 Colab link: [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy-Wav2Lip_v7.ipynb](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy-Wav2Lip_v7.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/EZWav2Lip_v7.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy-Wav2Lip_v7.ipynb)
 
 * Code adapted to google colab from [cog-Wav2Lip](https://github.com/devxpy/cog-Wav2Lip) by [devxpy](https://github.com/devxpy)
 
