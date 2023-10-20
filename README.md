@@ -2,7 +2,7 @@
 
 ### Please note that currently this is a Google Colab project only!
 
-However running locally is coming very soon! I have it working, I'm just working on making it easy to install and run.
+However running locally is coming very soon! I have it working, I'm just finishing off making it easy to install and run.
 
 Colab link: [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb)
 
