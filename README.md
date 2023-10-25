@@ -49,6 +49,8 @@ Colab link: [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/
 2. Place it in a folder on your PC (EG: in Documents)
 3. Run it and follow the instructions.
 
+Make sure your Nvidia drivers are up to date or you may not have Cuda 12.
+
 [Easy-Wav2Lip.bat](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/v8_release/Easy-Wav2Lip.bat) will automatically check for and install the required software, download and install Easy-Wav2Lip, then run it in a loop of configuration and processing until you close it. It will also check for updates to Easy-Wav2Lip.
 
 _If anyone is able to convert Easy-Wav2Lip.bat to work on linux, it will very appreciated!_
