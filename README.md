@@ -27,11 +27,13 @@ Easy-Wav2Lip fixes visual bugs on the lips:
 
 [![Comparison gif](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/Prerequesits/wav2lipcomparison.gif)](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/Prerequesits/wav2lipcomparison.gif)
 
-It removes the low resolution square surrounding the face:
-(example coming soon)
+3 Options for Quality:
+* Fast: Wav2Lip
+* Improved: Wav2Lip with a feathered mask around the mouth to restore the original resolution for the rest of the face
+* Enhanced: Wav2Lip + mask + GFPGAN upscaling done on the face
 
-It can upscale the mouth using GFPGAN (optional):
-(example coming soon)
+[![Comparison gif](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/Prerequesits/JPComparison.gif)](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/Prerequesits/JPComparison.gif)
+
 
 # Installation:
 
