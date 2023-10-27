@@ -23,7 +23,6 @@ vocal_file = config['OPTIONS']['vocal_file']
 quality = config['OPTIONS']['quality']
 output_height = config['OPTIONS']['output_height']
 wav2lip_version = config['OPTIONS']['wav2lip_version']
-use_previous_tracking_data = config['OPTIONS']['use_previous_tracking_data']
 nosmooth = config.getboolean('OPTIONS', 'nosmooth')
 U = config.getint('PADDING', 'U')
 D = config.getint('PADDING', 'D')
@@ -259,7 +258,7 @@ while True:
   if os.path.isfile('last_file.txt'):
     with open('last_file.txt', 'r') as file:
       last_file = file.readline()
-    if last_file != temp_input_video or use_previous_tracking_data == False:
+    if last_file != temp_input_video:
         if os.path.isfile(last_detected_face):
           os.remove(last_detected_face)
 
