@@ -303,6 +303,9 @@ while True:
 
     else:
       print(f"Processing failed! :( see line above 👆")
+      if not g_colab:
+        print('Maybe this just isn\'t compatible with your system and you might be better off using the colab:')
+        print('https://github.com/anothermartz/Easy-Wav2Lip#google-colab')
       sys.exit("Processing failed")
 
   #rename temp file and move to correct directory
@@ -324,6 +327,9 @@ while True:
   
   else:
       print(f"Processing failed! :( see line above 👆")
+      if not g_colab:
+        print('Maybe this just isn\'t compatible with your system and you might be better off using the colab:')
+        print('https://github.com/anothermartz/Easy-Wav2Lip#google-colab')
       process_failed = True
 
   if batch_process == False:
