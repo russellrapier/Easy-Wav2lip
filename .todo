@@ -1,0 +1,7 @@
+Make sure last_detected_face.pkl is being referenced in the same place everywhere.
+
+add variable to delete last_detected_face.pkl regardless
+
+add requirements and a link to the colab on failure if not on g_colab.
+
+check for installed.txt right after installation 
