@@ -42,7 +42,7 @@ Easy-Wav2Lip fixes visual bugs on the lips:
 ### Google Colab:
 [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v8/Easy_Wav2Lip_v8.ipynb](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v8/Easy_Wav2Lip_v8.ipynb)
 
-### [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v8/Easy_Wav2Lip_v8.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v8/Easy_Wav2Lip_v8.ipynb)
 
 ### For the easiest way to install locally on Windows 10 or 11, 64-Bit with a non-ARM processor and an NVIDIA GPU:
 
