@@ -2,7 +2,7 @@
 
 ### Please note that this v7 version is only for Google Colab!
 
-Running locally came from v8, please check [releases!](https://github.com/anothermartz/Easy-Wav2Lip/releases)
+Running locally starts with v8, please check [releases](https://github.com/anothermartz/Easy-Wav2Lip/releases) for the latest version of this project.
 
 Colab link: [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb)
 
