@@ -1,8 +1,8 @@
 # Audio to video lipsyncing made easy!
 
-### Please note that currently this is a Google Colab project only!
+### Please note that this v7 version is only for Google Colab!
 
-However running locally is coming very soon! I have it working, I'm just finishing off making it easy to install and run.
+Running locally came from v8, please check [releases!](https://github.com/anothermartz/Easy-Wav2Lip/releases)
 
 Colab link: [https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v7/Easy_Wav2Lip_v7.ipynb)
 
