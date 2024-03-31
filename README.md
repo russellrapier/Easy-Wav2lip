@@ -69,14 +69,19 @@ This should handle the installation of all required components.
 1. Make sure the following are installed and can be accessed via your terminal:
       * Python 3.10 (I have only tested [3.10.11](https://www.python.org/ftp/python/3.10.11/) - other versions may not work!)
       * [Git](https://git-scm.com/)
-      * [ffmpeg, ffplay, ffprobe](https://github.com/BtbN/FFmpeg-Builds/releases) - instructioms to easily install via commandlne below
       * Windows & Linuz: Cuda (Just having the latest Nvidia drivers will do this, I have only tested 12.2)
       * MacOS: Untested macOSTest branch avaialble, see instructions below
 
 2. Run the following in your terminal once you've navigated to the folder you want to install Easy-Wav2Lip:
 
 ### Windows installation:
-Set up venv and install ffmpeg to it:
+Sets up a venv, installs ffmpeg to it and then installs Easy-Wav2Lip:
+1. Open cmd and navigate to the folder you want to insteall Easy0Wav2Kip using cd
+EG:
+`cd Documents`
+
+2. Copy and paste the following code into your cmd window:
+Note: 2 folders will be made in this location: Easy-Wav2Lip and Easy-Wav2Lip-venv (an isolated python install)
 ```
 py -3.10 -m venv Easy-Wav2Lip-venv
 Easy-Wav2Lip-venv\Scripts\activate
@@ -88,25 +93,29 @@ powershell -Command "Expand-Archive -Path .\\ffmpeg.zip -DestinationPath .\\"
 xcopy /e /i /y "ffmpeg-master-latest-win64-gpl\bin\*" .\Easy-Wav2Lip-venv\Scripts
 del ffmpeg.zip
 rmdir /s /q ffmpeg-master-latest-win64-gpl
-```
-Install Easy-Wav2Lip and run:
-```
-Easy-Wav2Lip-venv\Scripts\activate
 git clone https://github.com/anothermartz/Easy-Wav2Lip.git
 cd Easy-Wav2Lip
 pip install -r requirements.txt
 python install.py
-call run_loop.bat
 ```
-Run after previously installing (cd to the same place as before first!):
+Now to run Easy-Wav2Lip:
+3. Close and reopen cmd then cd to the same directory as in Step 1.
+4. Paste the following code:
 ```
 Easy-Wav2Lip-venv\Scripts\activate
 cd Easy-Wav2Lip
 call run_loop.bat
 ```
+See [Usage](https://github.com/anothermartz/Easy-Wav2Lip?tab=readme-ov-file#usage) for further instructions.
 
-### MacOS and Linux:
-Set up venv and install ffmpeg to it:
+### MacOS and Linux installation (untested):
+Sets up a venv, installs ffmpeg to it and then installs Easy-Wav2Lip:
+1. Open Terminal and navigate to the folder you want to insteall Easy0Wav2Kip using cd
+EG:
+`cd ~/Documents`
+
+2. Copy and paste the following code into your terminal window:
+Note: 2 folders will be made in this location: Easy-Wav2Lip and Easy-Wav2Lip-venv (an isolated python install)
 ```
 python3.10 -m venv Easy-Wav2Lip-venv
 source EW2Lvenv/bin/activate
@@ -118,43 +127,27 @@ for file in ffmpeg ffprobe ffplay; do
 done
 mv -f ffmpeg ffprobe ffplay /Easy-Wav2Lip-venv/bin/
 rm -f ffmpeg-6.1.1.zip ffprobe-6.1.1.zip ffplay-6.1.1.zip
-```
-Linux install Easy-Wav2Lip and run:
-```
 source EW2Lvenv/bin/activate
 git clone https://github.com/anothermartz/Easy-Wav2Lip.git
 cd Easy-Wav2Lip
 pip install -r requirements.txt
 python install.py
-./run_loop.sh
-
 ```
-MacOS install Easy-Wav2Lip and run:
-```
-source EW2Lvenv/bin/activate
-`git clone -b macOSTest https://github.com/anothermartz/Easy-Wav2Lip.git`
-cd Easy-Wav2Lip
-pip install -r requirements.txt
-python install.py
-./run_loop.sh
-
-```
-(Let me know if it actually works so I can embed the MacOS support into the main branch!)
-
-Run after previously installing (cd to the same place as before first!):
+Now to run Easy-Wav2Lip:
+3. Close and reopen terminal then cd to the same directory as in Step 1.
+4. Paste the following code:
 ```
 source Easy-Wav2Lip-venv/bin/activate
 cd Easy-Wav2Lip
 ./run_loop.sh
 ```
 
-Please let me know if you have success running this on an AMD GPU or an ARM proessor and if you did or didn't do anything special to get it working.
-
 ## Usage:
 * Once everything is installed, a file called config.ini should pop up.
 * Add the path(s) to your video and audio files here and configure the settings to your liking.<br><br>
        **Pro Tip:**
      * On Windows Hold shift when right clicking on the file you want to use, then press "a" or click "copy as path" and that'll get the path that you can paste as video_file or vocal_file.
+     * MacOS: Right-click on the file, hold Option (Alt) key and select “Copy [filename] as Pathname” from the context menu.
        
 * Save config.ini and close it, this will start the Wav2Lip process and your file will be saved in the same directory as your video_path file.
 * config.ini will open again and you can change inputs and settings.
