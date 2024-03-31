@@ -51,8 +51,11 @@ Easy-Wav2Lip fixes visual bugs on the lips:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anothermartz/Easy-Wav2Lip/blob/v8.2/Easy_Wav2Lip_v8.2.ipynb)
 
 ## Local Installation:
-Requiremebts:
+Requirements:
     Nvidia card that supports cuda 12.2
+    Or
+    MacOS device that supports mps (macOSTest branch only - please let me know if it works!)
+
 
 ### Automatic installation for Windows 64-bit and x86 processor:
 1. Download [Easy-Wav2Lip.bat](https://github.com/anothermartz/Easy-Wav2Lip/releases/download/v8.2/Easy-Wav2Lip.bat)
