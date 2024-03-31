@@ -98,9 +98,10 @@ pip install -r requirements.txt
 python install.py
 call run_loop.bat
 ```
-Run after previously installing (cd to Easy-Wav2Lip first!):
+Run after previously installing (cd to the same place as before first!):
 ```
 Easy-Wav2Lip-venv\Scripts\activate
+cd Easy-Wav2Lip
 call run_loop.bat
 ```
 
@@ -140,9 +141,10 @@ python install.py
 ```
 (Let me know if it actually works so I can embed the MacOS support into the main branch!)
 
-Run after previously installing (cd to Easy-Wav2Lip first!):
+Run after previously installing (cd to the same place as before first!):
 ```
 source Easy-Wav2Lip-venv/bin/activate
+cd Easy-Wav2Lip
 ./run_loop.sh
 ```
 
