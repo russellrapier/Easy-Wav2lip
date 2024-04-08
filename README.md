@@ -98,9 +98,9 @@ cd Easy-Wav2Lip
 pip install -r requirements.txt
 python install.py
 ```
-Now to run Easy-Wav2Lip:
-3. Close and reopen cmd then cd to the same directory as in Step 1.
-4. Paste the following code:
+Now to run Easy-Wav2Lip:<br>
+    3. Close and reopen cmd then cd to the same directory as in Step 1.<br>
+    4. Paste the following code:
 ```
 Easy-Wav2Lip-venv\Scripts\activate
 cd Easy-Wav2Lip
