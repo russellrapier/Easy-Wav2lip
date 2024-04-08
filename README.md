@@ -133,8 +133,8 @@ cd Easy-Wav2Lip
 pip install -r requirements.txt
 python install.py
 ```
-Now to run Easy-Wav2Lip:
-3. Close and reopen terminal then cd to the same directory as in Step 1.
+Now to run Easy-Wav2Lip:<br>
+3. Close and reopen terminal then cd to the same directory as in Step 1.<br>
 4. Paste the following code:
 ```
 source Easy-Wav2Lip-venv/bin/activate
@@ -225,7 +225,7 @@ This option controls how many pixels are added or removed from the face crop in 
 
 | Value | Example | Effect |
 |:------|:--------|:-------|
-| U | U = -10 | Removes 5 pixels from the top of the face |
+| U | U = -5 | Removes 5 pixels from the top of the face |
 | D | D = 10 | Adds 10 pixels to the bottom of the face |
 | L | L = 0 | No change to the left of the face |
 | R | R = 15 | Adds 15 pixels to the right of the face |
