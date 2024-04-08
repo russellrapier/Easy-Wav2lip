@@ -111,7 +111,7 @@ echo Fetching the latest version of Easy-Wav2Lip...
 :: Retrieve the default branch name using Python
 for /f %%I in ('python -c "import requests; r = requests.get('https://api.github.com/repos/anothermartz/Easy-Wav2Lip', stream=True); print(r.json().get('default_branch', ''))"') do set latest_version=%%I
 :: You can install a particular version by removing the comment colons (::) below:
-set latest_version=v8.3
+::set latest_version=v8.3
 
 if exist "Easy-Wav2Lip\firstinstall" (
 		set firstinstall="True"
