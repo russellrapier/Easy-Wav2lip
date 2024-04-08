@@ -76,7 +76,7 @@ This should handle the installation of all required components.
 
 ### Windows installation:
 Sets up a venv, installs ffmpeg to it and then installs Easy-Wav2Lip:
-1. Open cmd and navigate to the folder you want to insteall Easy0Wav2Kip using cd
+1. Open cmd and navigate to the folder you want to install EasyWav2Lip using cd 
 EG:
 `cd Documents`
 
