@@ -1,6 +1,6 @@
 @echo off
 :run_loop
-call GUI.py
+python GUI.py
 
 if exist "run.txt" (
 	echo starting Easy-Wav2Lip...
