@@ -80,11 +80,9 @@ def format_time(seconds):
 
 def _load(checkpoint_path):
     if device != "cpu":
-        checkpoint = torch.load(checkpoint_path)
+        checkpoint = torch.load(checkpoint_path, map_location=device)
     else:
-        checkpoint = torch.load(
-            checkpoint_path, map_location=lambda storage, loc: storage
-        )
+        checkpoint = torch.load(checkpoint_path, map_location=lambda storage, loc: storage)
     return checkpoint
 
 
